@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .sidenav a,
+        .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+        }
+        .sidenav a:hover,
+        .dropdown-btn:hover {
+            color: #f1f1f1;
+        }
+        .main {
+            margin-left: 200px;
+            font-size: 20px;
+            padding: 0px 10px;
+        }
+        .active {
+            background-color: green;
+            color: white;
+        }
+        .dropdown-container {
+            display: none;
+            background-color: #262626;
+            padding-left: 8px;
+        }
+        .fa-caret-down {
+            float: right;
+            padding-right: 8px;
+        }
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidenav">
+        <button class="dropdown-btn">JAVA PROGRAMMING
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <button class="dropdown-btn">Week 1:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec1.pdf">Lecture 01</a></li>
+                    <li><a href="lec2.pdf">Lecture 02</a></li>
+                    <li><a href="lec3.pdf">Lecture 03</a></li>
+                    <li><a href="lec4.pdf">Lecture 04</a></li>
+                    <li><a href="lec5.pdf">Lecture 05</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 2:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec6.pdf">Lecture 06</a></li>
+                    <li><a href="lec7.pdf">Lecture 07</a></li>
+                    <li><a href="lec8.pdf">Lecture 08</a></li>
+                    <li><a href="lec9.pdf">Lecture 09</a></li>
+                    <li><a href="lec10.pdf">Lecture 10</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 3:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec11.pdf">Lecture 11</a></li>
+                    <li><a href="lec12.pdf">Lecture 12</a></li>
+                    <li><a href="lec13.pdf">Lecture 13</a></li>
+                    <li><a href="lec14.pdf">Lecture 14</a></li>
+                    <li><a href="lec15.pdf">Lecture 15</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 4:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec16.pdf">Lecture 16</a></li>
+                    <li><a href="lec17.pdf">Lecture 17</a></li>
+                    <li><a href="lec18.pdf">Lecture 18</a></li>
+                    <li><a href="lec19.pdf">Lecture 19</a></li>
+                    <li><a href="lec20.pdf">Lecture 20</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 5:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec21.pdf">Lecture 21</a></li>
+                    <li><a href="lec22.pdf">Lecture 22</a></li>
+                    <li><a href="lec23.pdf">Lecture 23</a></li>
+                    <li><a href="lec24.pdf">Lecture 24</a></li>
+                    <li><a href="lec25.pdf">Lecture 25</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 6:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec26.pdf">Lecture 26</a></li>
+                    <li><a href="lec27.pdf">Lecture 27</a></li>
+                    <li><a href="lec28.pdf">Lecture 28</a></li>
+                    <li><a href="lec29.pdf">Lecture 29</a></li>
+                    <li><a href="lec30.pdf">Lecture 30</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 7:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec31.pdf">Lecture 31</a></li>
+                    <li><a href="lec32.pdf">Lecture 32</a></li>
+                    <li><a href="lec33.pdf">Lecture 33</a></li>
+                    <li><a href="lec34.pdf">Lecture 34</a></li>
+                    <li><a href="lec35.pdf">Lecture 35</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 8:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec36.pdf">Lecture 36</a></li>
+                    <li><a href="lec37.pdf">Lecture 37</a></li>
+                    <li><a href="lec38.pdf">Lecture 38</a></li>
+                    <li><a href="lec39.pdf">Lecture 39</a></li>
+                    <li><a href="lec40.pdf">Lecture 40</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 9:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec41.pdf">Lecture 41</a></li>
+                    <li><a href="lec42.pdf">Lecture 42</a></li>
+                    <li><a href="lec43.pdf">Lecture 43</a></li>
+                    <li><a href="lec44.pdf">Lecture 44</a></li>
+                    <li><a href="lec45.pdf">Lecture 45</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 10:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec46.pdf">Lecture 46</a></li>
+                    <li><a href="lec47.pdf">Lecture 47</a></li>
+                    <li><a href="lec48.pdf">Lecture 48</a></li>
+                    <li><a href="lec49.pdf">Lecture 49</a></li>
+                    <li><a href="lec50.pdf">Lecture 50</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 11:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec51.pdf">Lecture 51</a></li>
+                    <li><a href="lec52.pdf">Lecture 52</a></li>
+                    <li><a href="lec53.pdf">Lecture 53</a></li>
+                    <li><a href="lec54.pdf">Lecture 54</a></li>
+                    <li><a href="lec55.pdf">Lecture 55</a></li>
+                </ul>
+            </div>
+            <button class="dropdown-btn">Week 12:
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li><a href="lec56.pdf">Lecture 56</a></li>
+                    <li><a href="lec57.pdf">Lecture 57</a></li>
+                    <li><a href="lec58.pdf">Lecture 58</a></li>
+                    <li><a href="lec59.pdf">Lecture 59</a></li>
+                    <li><a href="lec60.pdf">Lecture 60</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="main">
+        <h1>Nptel Java Programming</h1>
+    </div>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
